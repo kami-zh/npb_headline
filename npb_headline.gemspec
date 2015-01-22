@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['kami30k@gmail.com']
   spec.summary       = %q{NpbHeadline show the headlines of NPB (Nihon Professional Baseball) based on Y's Sports on command line.}
   spec.description   = %q{NpbHeadline show the headlines of NPB (Nihon Professional Baseball) based on Y's Sports on command line.}
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/kami30k/npb_headline'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
