@@ -1,5 +1,8 @@
 # NpbHeadline
 
+[![Build Status](https://travis-ci.org/kami30k/npb_headline.svg)](https://travis-ci.org/kami30k/npb_headline)
+[![Gem Version](https://badge.fury.io/rb/npb_headline.svg)](http://badge.fury.io/rb/npb_headline)
+
 NpbHeadline shows the headlines of NPB (Nihon Professional Baseball) based on Y's Sports on command line.
 
 ## Usage
