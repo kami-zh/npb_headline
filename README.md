@@ -1,15 +1,19 @@
-# NPB::Headline
+# NpbHeadline
 
-NPB::Headline show the headlines of NPB (Nihon Professional Baseball) based on Y's Sports on command line.
+NpbHeadline shows the headlines of NPB (Nihon Professional Baseball) based on Y's Sports on command line.
 
 ## Usage
 
-To show the headlines, you should just clone and execute ruby:
+To begin with, install gem:
 
 ```
-$ git clone git@github.com:kami30k/npb-headline.git
-$ cd npb-headline
-$ ruby app.rb {team_name}
+$ gem install npb_headline
+```
+
+To show the headlines, execute `npb_headline` command with `team_name` option:
+
+```
+$ npb_headline {team_name}
 ```
 
 The available values of `team_name` are as follows:
@@ -33,7 +37,7 @@ The available values of `team_name` are as follows:
 
 ## Contributing
 
-1. Fork it ( https://github.com/kami30k/npb-headline/fork )
+1. Fork it ( https://github.com/kami30k/npb_headline/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
